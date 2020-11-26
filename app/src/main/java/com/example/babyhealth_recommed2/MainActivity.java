@@ -9,20 +9,26 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button btn_menu1;
+    private Button btn_photo_1;
+    private Button btn_menu_1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btn_menu1 = findViewById(R.id.btn_menu1);
-        btn_menu1.setOnClickListener(new View.OnClickListener() {
+        btn_photo_1 = findViewById(R.id.btn_photo_1);
+        btn_photo_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, MainActivity2.class);
                 startActivity(intent);
+
             }
         });
+
+        btn_menu_1 = findViewById(R.id.btn_menu_1);
+
+        };
     }
 }

@@ -1,24 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:stretchColumns="*"
     tools:context=".MainActivity">
 
-    <Button
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:text="사진"/>
+    <TableRow>
+        <Button
+            android:id="@+id/btn_photo_1"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_span="1"
+            android:text="사진01"
+            />
 
-    <Button
-        android:id="@+id/btn_menu1"
-        android:layout_width="330dp"
-        android:layout_height="50dp"
-        android:text="주원 짱짱 헬스장"
+        <Button
+            android:id="@+id/btn_menu_1"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_span="4"
+            android:text="헬스장 이름과 평가 01"
+            />
+
+    </TableRow>
 
 
-        />
+    <TableRow>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_span="1"
+            android:text="사진02"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_span="4"
+            android:text="헬스장 이름과 평가 02"
+            />
+
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_span="1"
+            android:text="사진03"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_span="4"
+            android:text="헬스장 이름과 평가 03"
+            />
+
+    </TableRow>
 
 
-</LinearLayout>
+    <TableRow>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_span="1"
+            android:text="사진04"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_span="4"
+            android:text="헬스장 이름과 평가 04"
+            />
+
+    </TableRow>
+
+
+
+    <TableRow>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_span="1"
+            android:text="사진05"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_span="4"
+            android:text="헬스장 이름과 평가 06"
+            />
+
+    </TableRow>
+
+
+
+    <TableRow>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_span="1"
+            android:text="사진06"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_span="4"
+            android:text="헬스장 이름과 평가 06"
+            />
+
+    </TableRow>
+
+
+
+    <TableRow>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_span="1"
+            android:text="사진07"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_span="4"
+            android:text="헬스장 이름과 평가 07"
+            />
+
+    </TableRow>
+
+
+</TableLayout>
