@@ -14,6 +14,7 @@
             android:layout_height="70dp"
             android:layout_span="1"
             android:text="사진01"
+           android:background="@drawable/btn_photo_1"
             />
 
         <Button
@@ -29,6 +30,7 @@
 
     <TableRow>
         <Button
+            android:id="@+id/btn_photo_2"
             android:layout_width="0dp"
             android:layout_height="70dp"
             android:layout_span="1"
@@ -36,6 +38,7 @@
             />
 
         <Button
+            android:id="@+id/btn_menu_2"
             android:layout_width="0dp"
             android:layout_height="70dp"
             android:layout_span="4"
@@ -46,6 +49,7 @@
 
     <TableRow>
         <Button
+            android:id="@+id/btn_photo_3"
             android:layout_width="0dp"
             android:layout_height="70dp"
             android:layout_span="1"
@@ -53,6 +57,7 @@
             />
 
         <Button
+            android:id="@+id/btn_menu_3"
             android:layout_width="0dp"
             android:layout_height="70dp"
             android:layout_span="4"
@@ -64,6 +69,7 @@
 
     <TableRow>
         <Button
+            android:id="@+id/btn_photo_4"
             android:layout_width="0dp"
             android:layout_height="70dp"
             android:layout_span="1"
@@ -71,6 +77,7 @@
             />
 
         <Button
+            android:id="@+id/btn_menu_4"
             android:layout_width="0dp"
             android:layout_height="70dp"
             android:layout_span="4"
@@ -83,6 +90,7 @@
 
     <TableRow>
         <Button
+            android:id="@+id/btn_photo_5"
             android:layout_width="0dp"
             android:layout_height="70dp"
             android:layout_span="1"
@@ -90,6 +98,7 @@
             />
 
         <Button
+            android:id="@+id/btn_menu_5"
             android:layout_width="0dp"
             android:layout_height="70dp"
             android:layout_span="4"
@@ -102,6 +111,7 @@
 
     <TableRow>
         <Button
+            android:id="@+id/btn_photo_6"
             android:layout_width="0dp"
             android:layout_height="70dp"
             android:layout_span="1"
@@ -109,6 +119,7 @@
             />
 
         <Button
+            android:id="@+id/btn_menu_6"
             android:layout_width="0dp"
             android:layout_height="70dp"
             android:layout_span="4"
@@ -121,6 +132,7 @@
 
     <TableRow>
         <Button
+            android:id="@+id/btn_photo_7"
             android:layout_width="0dp"
             android:layout_height="70dp"
             android:layout_span="1"
@@ -128,6 +140,7 @@
             />
 
         <Button
+            android:id="@+id/btn_menu_7"
             android:layout_width="0dp"
             android:layout_height="70dp"
             android:layout_span="4"
