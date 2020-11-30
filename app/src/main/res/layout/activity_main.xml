@@ -15,17 +15,14 @@
             android:layout_span="1"
             android:text="사진01"
            android:background="@drawable/btn_photo_1"
-
             />
-
         <Button
             android:id="@+id/btn_menu_1"
             android:layout_width="0dp"
             android:layout_height="70dp"
             android:layout_span="4"
-            android:text="헬스장 이름과 평가 01"
-/>
-
+            android:text="원 피트니스"
+            />
     </TableRow>
 
     <TableRow>
@@ -36,15 +33,13 @@
             android:layout_span="1"
             android:text="사진02"
             />
-
         <Button
             android:id="@+id/btn_menu_2"
             android:layout_width="0dp"
             android:layout_height="70dp"
             android:layout_span="4"
-            android:text="헬스장 이름과 평가 02"
+            android:text="투데이 피트니스"
             />
-
     </TableRow>
 
     <TableRow>
@@ -55,7 +50,6 @@
             android:layout_span="1"
             android:text="사진03"
             />
-
         <Button
             android:id="@+id/btn_menu_3"
             android:layout_width="0dp"
@@ -63,9 +57,7 @@
             android:layout_span="4"
             android:text="헬스장 이름과 평가 03"
             />
-
     </TableRow>
-
 
     <TableRow>
         <Button
@@ -75,7 +67,6 @@
             android:layout_span="1"
             android:text="사진04"
             />
-
         <Button
             android:id="@+id/btn_menu_4"
             android:layout_width="0dp"
@@ -83,10 +74,7 @@
             android:layout_span="4"
             android:text="헬스장 이름과 평가 04"
             />
-
     </TableRow>
-
-
 
     <TableRow>
         <Button
@@ -96,7 +84,6 @@
             android:layout_span="1"
             android:text="사진05"
             />
-
         <Button
             android:id="@+id/btn_menu_5"
             android:layout_width="0dp"
@@ -104,10 +91,7 @@
             android:layout_span="4"
             android:text="헬스장 이름과 평가 06"
             />
-
     </TableRow>
-
-
 
     <TableRow>
         <Button
@@ -117,7 +101,6 @@
             android:layout_span="1"
             android:text="사진06"
             />
-
         <Button
             android:id="@+id/btn_menu_6"
             android:layout_width="0dp"
@@ -125,10 +108,7 @@
             android:layout_span="4"
             android:text="헬스장 이름과 평가 06"
             />
-
     </TableRow>
-
-
 
     <TableRow>
         <Button
@@ -138,7 +118,6 @@
             android:layout_span="1"
             android:text="사진07"
             />
-
         <Button
             android:id="@+id/btn_menu_7"
             android:layout_width="0dp"
@@ -146,8 +125,6 @@
             android:layout_span="4"
             android:text="헬스장 이름과 평가 07"
             />
-
     </TableRow>
-
 
 </TableLayout>

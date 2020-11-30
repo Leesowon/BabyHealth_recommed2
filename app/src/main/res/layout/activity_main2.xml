@@ -7,7 +7,6 @@
     android:orientation="vertical"
     tools:context=".MainActivity2">
 
-
     <ImageView
         android:id="@+id/photo_1"
         android:layout_width="412dp"
@@ -19,7 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="전북 전주시 덕진구 권삼득로 343 3층"
-        android:textSize="25dp"
+        android:textSize="25sp"
         android:textColor="@color/black"
 
         />
@@ -40,7 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="\n운영시간"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textColor="@color/black"
         />
 
@@ -48,7 +47,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="평일 06:00 ~ 20:00\n주말 10:00 ~ 00:30"
-        android:textSize="18dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n전화번호"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0507-1423-9611"
+        android:textSize="18sp"
         android:textColor="@color/black"
         />
 
@@ -57,7 +72,7 @@
         android:layout_height="wrap_content"
         android:text="\n편의시설"
         android:textColor="@color/black"
-        android:textSize="20dp"
+        android:textSize="20sp"
         />
 
     <TextView
@@ -65,7 +80,7 @@
         android:layout_height="wrap_content"
         android:text="주차장, 신발장, 락커, 운동복 제공, 탈의실, 샤워장"
         android:textColor="@color/black"
-        android:textSize="18dp"
+        android:textSize="16sp"
         />
 
     <TextView
@@ -73,7 +88,7 @@
         android:layout_height="wrap_content"
         android:text="\n이용요금"
         android:textColor="@color/black"
-        android:textSize="20dp"
+        android:textSize="20sp"
         />
 
     <TextView
@@ -81,7 +96,7 @@
         android:layout_height="wrap_content"
         android:text="1개월 50,000(현금) 60,000(카드)\n3개월 99,000(현금) 120,000(카드)\n6개월 200,000(현금) 220,000(카드)"
         android:textColor="@color/black"
-        android:textSize="18dp"
+        android:textSize="18sp"
         />
 
     <TextView
@@ -89,7 +104,7 @@
         android:layout_height="wrap_content"
         android:text="\n프로그램"
         android:textColor="@color/black"
-        android:textSize="20dp"
+        android:textSize="20sp"
         />
 
     <TextView
@@ -97,7 +112,7 @@
         android:layout_height="wrap_content"
         android:text="스피닝, 파워스피닝, 줌바핏, 힐리요가, 요가"
         android:textColor="@color/black"
-        android:textSize="18dp"
+        android:textSize="18sp"
         />
 
-</LinearLayout>
+        </LinearLayout>
